@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+.card {
+    width: 400px;
+    height: 200PX;
+    box-sizing: border-box;
+    padding: 1px 20px;
+    background: url('./imagens/background.png') no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.instagram {
+    list-style-image: url('./imagens/Insta.png');
+}
+
+.twitter {
+    list-style-image: url('./imagens/Twitter.png');
+}
+
+.youtube {
+    list-style-image: url('./imagens/Youtube.png');
+}
+
+
+/* OBS: ./ VAI PARA MESMA PASTA DO CSS, ../ VAI PARA UMA OUTRA PASTA OU NIVEL, PARA IR ALEM SERIA ../../ ETC */
